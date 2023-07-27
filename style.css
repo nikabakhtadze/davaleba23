@@ -1,0 +1,216 @@
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+*{
+    font-family: Montserrat-Bold;
+}
+.navbar-brand{
+    margin-right:120px !important;
+}
+.nav-menu .navbar-nav{
+    column-gap:21px;
+}
+.nav-menu .navbar-nav:first-child .nav-link{
+    color: var(--second-text-color, #737373);
+        text-align: center;
+        font-family: Montserrat-Bold;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+}
+.home-button {
+    height:52px;
+    width:214px;
+    border-radius:5px;
+}
+.home .home-contact{
+    margin-top:112px;
+    margin-bottom:35px;
+    display:block;
+}
+.home h1{
+    max-width:250px;
+}
+.home .home-contact, .home h1, .home p{
+    margin-bottom:35px;
+
+}
+
+.home h6:nth-of-type(1){
+    margin-bottom:20px;
+}
+.home h6:nth-of-type(2){
+    margin-bottom:35px;
+}
+.information{
+    padding-top:112px;
+    padding-bottom:112px;
+}
+.information .title{
+    max-width:600px;
+    margin-inline:auto;
+    margin-bottom:80px;
+    text-align: center;
+}
+.information p{
+    color: var(--text-color, #252B42);
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+}
+.infrmation h1 {
+    color: var(--text-color, #252B42);
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+}
+.information .card{
+    padding:80px 40px;
+}
+.information .row .col-md-4:nth-child(3) .card{
+    background-color:#252B42
+}
+.information .card .info span{
+    display: block;
+    color:#252B42;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        margin-top:15px;
+}
+.information .card .info h6{
+    color: var(--text-color, #252B42);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        margin-bottom:15px;
+        margin-top:15px;  
+}
+.information .card .btn-request{
+    display:flex;
+    padding:15px 36px;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+    border-radius:37px;
+    border:1p solid #23A6F0;
+    color:#23A6F0;
+    background-color:transparent;
+    margin-inline:auto;
+}
+.other-section{
+    padding:80px 0;
+}
+.other-section svg .other-sectiom h6{
+    margin-bottom:16px;
+}
+.other-sectiojn p{
+    color: #252B42;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.1px;    
+}
+.other-sectiojn h1{
+            color: #252B42;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+}
+.other-section button{
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #23A6F0;
+    color:#ffffff;
+}
+footer .footer-icon{
+    column-gap:20px;
+}
+footer .footer-head{
+    padding: 40px 0;
+    border-bottom:1px solid #E6E6E6;
+}
+footer .footer-menu{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+footer .footer-menu .title{
+        color: #252B42;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        margin-bottom:20px;
+}
+footer .menu-details{
+    list-style:none;
+    max-width:321px;
+}
+footer .menu-details .footer-link a{
+        margin-bottom:10px;
+        color: #737373;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        text-decoration:none;
+}
+footer .footer-email input{
+    border-radius:5px;
+    background-color:#F9F9F9;
+    height:58px;
+    color:#737373;
+    font-size:14px;
+    font-style:normal;
+    font-weight:400;
+    line-height:28px;
+    letter-spacing:0.2px;
+    max-width:204px;
+    width:100%;
+    outline:0;
+    border:0;
+    padding-left:20px;
+    padding-right:20px;
+}
+footer .footer-email button{
+    width:117px;
+    height:58px;
+    width:100%;
+    border-radius:0px 5px 5px 0px;
+    border:1px solid #E6E6E6;
+    background-color:#23A6F0;
+    color:#ffffff;
+    max-width:117px;
+}
+.footer .footer-email+p{
+    color: #737373;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+}
